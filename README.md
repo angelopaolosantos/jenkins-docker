@@ -1,7 +1,7 @@
 # Jenkins on Docker #
 
 
-###Installation
+### Installation ###
 1. Create bridge network in Docker
 ```
 docker network create jenkins
