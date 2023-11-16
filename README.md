@@ -14,9 +14,13 @@ Minimum hardware requirements:
 ## Clean up
 1. Make the uninstall script executable `chmod u+x uninstall.sh`
 2. Run shell script `./uninstall.sh`
+
+For Github integration, follow docs to setup github app and also install github-pr-comment-build
 ---
 ###### References:
 https://www.jenkins.io/doc/book/installing/docker/
 https://www.jenkins.io/doc/book/pipeline/docker/
 https://devopscube.com/docker-containers-as-build-slaves-jenkins/
 https://github.com/devopsjourney1/jenkins-101
+https://github.com/jenkinsci/github-branch-source-plugin/blob/master/docs/github-app.adoc
+https://plugins.jenkins.io/github-pr-comment-build/
